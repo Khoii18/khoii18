@@ -4,14 +4,13 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=800&color=F4C76B&center=true&vCenter=true&width=900&lines=FRONTEND+DEVELOPER;MERN+STACK+EXPLORER;UI%2FUX+FOCUSED;ONE+PIECE+FAN" />
 
-### 🏴‍☠️ “I'm gonna be the King of the Code.”
+### 🏴‍☠️ “俺はルフィ！海賊王になる男だ！”
 
 <br/>
 
 <img src="https://img.shields.io/badge/⚔️%20Frontend%20Developer-111827?style=for-the-badge" />
 <img src="https://img.shields.io/badge/🟢%20MERN%20Stack-166534?style=for-the-badge" />
 <img src="https://img.shields.io/badge/🎨%20UI%2FUX%20Focused-7C3AED?style=for-the-badge" />
-<img src="https://img.shields.io/badge/👒%20One%20Piece%20Fan-F59E0B?style=for-the-badge" />
 
 </div>
 
