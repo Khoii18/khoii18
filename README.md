@@ -124,17 +124,21 @@ AI-powered platform concept for monitoring mental/physical health and optimizing
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Khoii18&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khoii18&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=450&cache_seconds=1800" />
-</p>
+<img src="https://streak-stats.demolab.com?user=Khoii18&theme=tokyonight&hide_border=true" />
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Khoii18&theme=tokyonight&hide_border=true" />
-</p>
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Khoii18&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Khoii18&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
+<img src="https://img.shields.io/github/followers/Khoii18?style=for-the-badge&color=blue" />
+<img src="https://img.shields.io/github/stars/Khoii18?style=for-the-badge&color=yellow" />
+
+</div>
 
 ---
 
