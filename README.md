@@ -1,8 +1,167 @@
-<h1 align="center">🏴‍☠️ Nguyen Anh Khoi | Frontend Developer</h1> <p align="center"> <i>俺はルフィ！海賊王になる男だ！</i> </p> <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%7C+Next.js+%7C+TailwindCSS;MERN+Stack+Explorer;Building+AI+%26+Trading+Web+Platforms" /> </p> --- ## 🏴‍☠️ About Me Hi, I'm **Nguyen Anh Khoi**, a developer who loves building modern web interfaces with a strong focus on UI detail, API integration, and real product experience. I’m currently sailing through projects related to: - ⚛️ Frontend development - 🎨 UI/UX implementation - 🔗 API integration - 🧠 AI-powered platforms - 📈 Trading dashboard interfaces - 🛒 E-commerce systems --- ## ⚔️ My Tech Stack ### 🧭 Frontend <p> <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap" /> </p> ### 🛠 Backend & Database <p> <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,firebase" /> </p> ### 🧰 Tools <p> <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,vercel" /> </p> --- ## 🍖 Devil Fruit Skills | Skill | Power | |---|---| | ⚛️ React React no Mi | Build reusable components and dynamic UI | | 🎨 Tailwind Tailwind no Mi | Create fast, responsive, pixel-perfect layouts | | 🔗 API API no Mi | Connect frontend with real backend services | | 🧠 Logic Logic no Mi | Handle state, data flow, and user interaction | | 🏴‍☠️ Debug Debug no Mi | Hunt bugs like treasure across the codebase | --- ## 🚢 Featured Projects ### 🛒 MERN E-commerce Website A full-stack e-commerce project using React, Node.js, Express, MongoDB, Google OAuth, cart, payment flow, and product management. ### 📈 Trading Dashboard UI A modern trading interface with responsive layout, pricing page, plan selection, API testing, and transaction-related UI flows. ### 🧠 AI Health & Study Optimization Platform A concept platform for monitoring mental and physical health while optimizing study and work schedules. --- ## 📊 GitHub Stats <p align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=Khoii18&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khoii18&layout=compact&theme=tokyonight&hide_border=true" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Khoii18&theme=tokyonight&hide_border=true" /> </p> --- ## 🗺️ Current Journey
-js
+<div align="center">
+
+# ☠️ KHOII18
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=800&color=F4C76B&center=true&vCenter=true&width=900&lines=FRONTEND+DEVELOPER;MERN+STACK+EXPLORER;UI%2FUX+FOCUSED;ONE+PIECE+FAN" />
+
+### 🏴‍☠️ “I'm gonna be the King of the Code.”
+
+<br/>
+
+<img src="https://img.shields.io/badge/⚔️%20Frontend%20Developer-111827?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🟢%20MERN%20Stack-166534?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🎨%20UI%2FUX%20Focused-7C3AED?style=for-the-badge" />
+<img src="https://img.shields.io/badge/👒%20One%20Piece%20Fan-F59E0B?style=for-the-badge" />
+
+</div>
+
+---
+
+<table>
+<tr>
+<td width="58%">
+
+## ☠️ About Me
+
+Hi, I'm **Nguyen Anh Khoi**, a Frontend Developer on a journey to become the **Pirate King of clean UI and great user experience**.
+
+- ⚔️ Building fast, responsive and scalable web apps  
+- 🎨 Focused on UI/UX implementation and pixel-perfect layouts  
+- 🔗 Experienced with API integration and real product flows  
+- 📈 Interested in trading dashboards and financial platforms  
+- 🧠 Exploring AI-powered platforms and full-stack development  
+- 🌊 Always learning, improving and shipping like a true pirate  
+
+</td>
+<td width="42%">
+
+## 🍖 Devil Fruit Skills
+
+| Skill | Power |
+|---|---|
+| ⚛️ React React no Mi | Build reusable UI components |
+| 🎨 Tailwind no Mi | Create responsive layouts |
+| 🔗 API no Mi | Connect backend services |
+| 🧠 Logic no Mi | Handle state and data flow |
+| 🐛 Debug no Mi | Hunt bugs like treasure |
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⚔️ Tech Stack
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🧭 Frontend
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap" />
+
+</td>
+<td align="center" width="33%">
+
+### 🛠 Backend & Database
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,firebase" />
+
+</td>
+<td align="center" width="33%">
+
+### 🧰 Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,vercel" />
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚢 Featured Projects
+
+<table>
+<tr>
+<td width="33%">
+
+### 🛒 MERN E-commerce Website
+
+Full-stack e-commerce website with product management, cart, payment flow, Google OAuth and admin dashboard.
+
+**Tech Stack**
+
+`React` `Node.js` `MongoDB` `Express` `JWT`
+
+</td>
+<td width="33%">
+
+### 📈 Trading Platform UI
+
+Modern trading interface with responsive layout, pricing plans, API integration and transaction flows.
+
+**Tech Stack**
+
+`React` `TailwindCSS` `API` `Recharts`
+
+</td>
+<td width="33%">
+
+### 🧠 Health & Study Optimizer
+
+AI-powered platform concept for monitoring mental/physical health and optimizing study or work schedules.
+
+**Tech Stack**
+
+`React` `AI API` `Chart.js` `TailwindCSS`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Khoii18&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khoii18&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Khoii18&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🌊 Contribution Sea
+
+<p align="center">
+  <b>Keep sailing, keep coding.</b>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoii18&theme=tokyo-night&hide_border=true&area=true&custom_title=Khoii's%20Contribution%20Sea" />
+</p>
+
+---
+
+## 🗺️ Current Journey
+
+```js
 const khoiimen = {
+  name: "Nguyen Anh Khoi",
   role: "Frontend Developer",
   mainStack: ["React", "TypeScript", "TailwindCSS", "Node.js", "MongoDB"],
   currentFocus: ["UI Design", "API Integration", "Trading Platform", "Full-stack Web"],
   goal: "Become a strong product-focused developer"
 };
+
+while (true) {
+  learn();
+  build();
+  debug();
+  ship();
+}
