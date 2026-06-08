@@ -25,7 +25,7 @@
 
 Hi, I'm **Nguyen Anh Khoi**, a Frontend Developer currently working at **Hyra Tek**.
 
-Developer on a journey to become the **Pirate King of clean code and great user experiences**.
+Want some advices? text me...**.
 
 ### Current Mission
 
