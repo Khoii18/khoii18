@@ -130,11 +130,13 @@ AI-powered platform concept for monitoring mental/physical health and optimizing
 
 <br/><br/>
 
+<img src="https://github-contributor-stats.vercel.app/api?username=Khoii18&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" />
+
+<br/><br/>
+
 <img src="https://komarev.com/ghpvc/?username=Khoii18&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
 
 <img src="https://img.shields.io/github/followers/Khoii18?style=for-the-badge&color=blue" />
-
-<img src="https://img.shields.io/badge/Frontend-React%20%7C%20TypeScript-61DAFB?style=for-the-badge" />
 
 </div>
 
