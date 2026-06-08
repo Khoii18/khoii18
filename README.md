@@ -2,7 +2,7 @@
 
 # ☠️ KHOII18
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=800&color=F4C76B&center=true&vCenter=true&width=900&lines=FRONTEND+DEVELOPER;MERN+STACK+EXPLORER;UI%2FUX+FOCUSED;ONE+PIECE+FAN" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=800&color=F4C76B&center=true&vCenter=true&width=900&lines=FRONTEND+DEVELOPER;MERN+STACK+EXPLORER;UI%2FUX+FOCUSED" />
 
 ### 🏴‍☠️ “俺はルフィ！海賊王になる男だ！”
 
@@ -22,7 +22,7 @@
 
 ## ☠️ About Me
 
-Hi, I'm **Nguyen Anh Khoi**, a Frontend Developer on a journey to become the **Pirate King of clean UI and great user experience**.
+Hi, I'm **Nguyen Anh Khoi**, a Frontend Developer from Hyra Tek**.
 
 - ⚔️ Building fast, responsive and scalable web apps  
 - 🎨 Focused on UI/UX implementation and pixel-perfect layouts  
