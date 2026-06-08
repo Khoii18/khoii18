@@ -207,6 +207,9 @@ AI-powered platform for:
 
 </p>
 
+📫 Contact Me
+<p align="center"> <a href="mailto:Roynguyen2004@gmail.com"> <img src="https://img.shields.io/badge/Gmail-Roynguyen2004@gmail.com-red?style=for-the-badge&logo=gmail" /> </a> <a href="https://github.com/Khoii18"> <img src="https://img.shields.io/badge/GitHub-Khoii18-black?style=for-the-badge&logo=github" /> </a> </p>
+<div align="center">
 ---
 
 # 🗺️ Current Journey
