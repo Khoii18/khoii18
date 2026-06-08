@@ -1,7 +1,7 @@
 <h1 align="center">🏴‍☠️ Nguyen Anh Khoi | Frontend Developer</h1>
 
 <p align="center">
-  <i>Set sail through the Grand Line of code, building smooth UI, clean logic, and scalable web apps.</i>
+  <i>俺はルフィ！海賊王になる男だ！</i>
 </p>
 
 <p align="center">
@@ -85,7 +85,7 @@ A concept platform for monitoring mental and physical health while optimizing st
 ## 🗺️ Current Journey
 
 ```js
-const khoi = {
+const khoiimen = {
   role: "Frontend Developer",
   mainStack: ["React", "TypeScript", "TailwindCSS", "Node.js", "MongoDB"],
   currentFocus: ["UI Design", "API Integration", "Trading Platform", "Full-stack Web"],
