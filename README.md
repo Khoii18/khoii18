@@ -18,151 +18,219 @@
 
 <table>
 <tr>
-<td width="58%">
+
+<td width="55%">
 
 ## ☠️ About Me
 
-Hi, I'm **Nguyen Anh Khoi**, a Frontend Developer from Hyra Tek**.
+Hi, I'm **Nguyen Anh Khoi**, a Frontend Developer currently working at **Hyra Tek**.
 
-- ⚔️ Building fast, responsive and scalable web apps  
-- 🎨 Focused on UI/UX implementation and pixel-perfect layouts  
-- 🔗 Experienced with API integration and real product flows  
-- 📈 Interested in trading dashboards and financial platforms  
-- 🧠 Exploring AI-powered platforms and full-stack development  
-- 🌊 Always learning, improving and shipping like a true pirate  
+Developer on a journey to become the **Pirate King of clean code and great user experiences**.
+
+### Current Mission
+
+- ⚔️ Building fast, responsive and scalable web apps
+- 🎨 Focused on pixel-perfect UI/UX implementation
+- 🔗 Experienced with API integration
+- 📈 Developing trading dashboards and fintech platforms
+- 🧠 Exploring AI-powered applications
+- 🌊 Constantly learning and improving
+
+### Current Focus
+
+```txt
+React.js
+Next.js
+TypeScript
+TailwindCSS
+Node.js
+MongoDB
+Trading Platforms
+AI Products
+```
 
 </td>
-<td width="42%">
+
+<td width="45%">
 
 ## 🍖 Devil Fruit Skills
 
-| Skill | Power |
-|---|---|
-| ⚛️ React React no Mi | Build reusable UI components |
-| 🎨 Tailwind no Mi | Create responsive layouts |
-| 🔗 API no Mi | Connect backend services |
-| 🧠 Logic no Mi | Handle state and data flow |
-| 🐛 Debug no Mi | Hunt bugs like treasure |
+| Fruit | Ability |
+|--------|----------|
+| ⚛️ React React no Mi | Build reusable UI |
+| 🎨 Tailwind no Mi | Responsive layouts |
+| 🔗 API no Mi | Connect services |
+| 🧠 Logic no Mi | Clean architecture |
+| 🐛 Debug no Mi | Hunt bugs |
+| 🚢 Ship no Mi | Deliver products |
 
 </td>
+
 </tr>
 </table>
 
 ---
 
-## ⚔️ Tech Stack
+# ⚔️ Tech Stack
 
-<table>
-<tr>
-<td align="center" width="33%">
+### Frontend
 
-### 🧭 Frontend
+<p align="center">
 
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap" />
 
-</td>
-<td align="center" width="33%">
+</p>
 
-### 🛠 Backend & Database
+### Backend & Database
+
+<p align="center">
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,firebase" />
 
-</td>
-<td align="center" width="33%">
+</p>
 
-### 🧰 Tools
+### Tools
+
+<p align="center">
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,vercel" />
 
-</td>
-</tr>
-</table>
+</p>
 
 ---
 
-## 🚢 Featured Projects
+# 🚢 Featured Projects
 
 <table>
+
 <tr>
+
 <td width="33%">
 
-### 🛒 MERN E-commerce Website
+### 🛒 MERN E-Commerce
 
-Full-stack e-commerce website with product management, cart, payment flow, Google OAuth and admin dashboard.
+Full-stack e-commerce website with:
 
-**Tech Stack**
+- Product Management
+- Authentication
+- Google OAuth
+- Cart System
+- Payment Flow
 
-`React` `Node.js` `MongoDB` `Express` `JWT`
+**Stack**
+
+`React`
+`Node.js`
+`MongoDB`
+`Express`
 
 </td>
+
 <td width="33%">
 
-### 📈 Trading Platform UI
+### 📈 Trading Platform
 
-Modern trading interface with responsive layout, pricing plans, API integration and transaction flows.
+Modern trading interface with:
 
-**Tech Stack**
+- Real-time charts
+- Pricing Plans
+- API Integration
+- Responsive Layout
 
-`React` `TailwindCSS` `API` `Recharts`
+**Stack**
+
+`React`
+`TailwindCSS`
+`API`
+`Recharts`
 
 </td>
+
 <td width="33%">
 
-### 🧠 Health & Study Optimizer
+### 🧠 Health Optimizer
 
-AI-powered platform concept for monitoring mental/physical health and optimizing study or work schedules.
+AI-powered platform for:
 
-**Tech Stack**
+- Mental Health Tracking
+- Study Optimization
+- Work Schedule Management
 
-`React` `AI API` `Chart.js` `TailwindCSS`
+**Stack**
+
+`React`
+`AI`
+`Chart.js`
+`TailwindCSS`
 
 </td>
+
 </tr>
+
 </table>
 
 ---
 
-## 📊 GitHub Stats
+# 🌊 Contribution Sea
 
 <div align="center">
 
+<img src="./contribution-sea.svg" width="100%" />
+
+</div>
+
+<br/>
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoii18&theme=github-compact&hide_border=true&area=true&custom_title=Khoii's%20Contribution%20Sea" />
+
+</p>
+
+---
+
+# 📊 GitHub Activity
+
+<p align="center">
+
 <img src="https://streak-stats.demolab.com?user=Khoii18&theme=tokyonight&hide_border=true" />
 
-<br/><br/>
+</p>
 
-<img src="https://github-contributor-stats.vercel.app/api?username=Khoii18&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" />
+<br/>
 
-<br/><br/>
+<p align="center">
 
 <img src="https://komarev.com/ghpvc/?username=Khoii18&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
 
 <img src="https://img.shields.io/github/followers/Khoii18?style=for-the-badge&color=blue" />
 
-</div>
-
----
-
-## 🌊 Contribution Sea
-
-<p align="center">
-  <b>Keep sailing, keep coding.</b>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoii18&theme=tokyo-night&hide_border=true&area=true&custom_title=Khoii's%20Contribution%20Sea" />
 </p>
 
 ---
 
-## 🗺️ Current Journey
+# 🗺️ Current Journey
 
 ```js
-const khoiimen = {
-  name: "Nguyen Anh Khoi",
+const khoii18 = {
   role: "Frontend Developer",
-  mainStack: ["React", "TypeScript", "TailwindCSS", "Node.js", "MongoDB"],
-  currentFocus: ["UI Design", "API Integration", "Trading Platform", "Full-stack Web"],
-  goal: "Become a strong product-focused developer"
+
+  mainStack: [
+    "React",
+    "TypeScript",
+    "TailwindCSS",
+    "Node.js",
+    "MongoDB"
+  ],
+
+  currentFocus: [
+    "Trading Platform",
+    "AI Product",
+    "UI Design",
+    "API Integration"
+  ],
+
+  goal: "Become a strong product-focused engineer"
 };
 
 while (true) {
@@ -171,3 +239,4 @@ while (true) {
   debug();
   ship();
 }
+```
