@@ -129,7 +129,7 @@ AI-powered platform concept for monitoring mental/physical health and optimizing
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Khoii18&theme=tokyonight" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khoii18&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=450&cache_seconds=1800" />
 </p>
 
 <p align="center">
