@@ -207,12 +207,47 @@ AI-powered platform for:
 
 </p>
 
-📫 Contact Me
-<p align="center"> <a href="mailto:Roynguyen2004@gmail.com"> <img src="https://img.shields.io/badge/Gmail-Roynguyen2004@gmail.com-red?style=for-the-badge&logo=gmail" /> </a> <a href="https://github.com/Khoii18"> <img src="https://img.shields.io/badge/GitHub-Khoii18-black?style=for-the-badge&logo=github" /> </a> </p>
-<div align="center">
+# 📫 Contact Me
+
+<p align="center">
+
+<a href="mailto:khoinagch221106@fpt.edu.vn">
+  <img src="https://img.shields.io/badge/Gmail-khoinagch221106%40fpt.edu.vn-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://github.com/Khoii18">
+  <img src="https://img.shields.io/badge/GitHub-Khoii18-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.facebook.com/Khoiimen">
+  <img src="https://img.shields.io/badge/Facebook-Khoiimen-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+</a>
+
+<a href="https://www.instagram.com/khoiimen/">
+  <img src="https://img.shields.io/badge/Instagram-@khoiimen-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+
+</p>
+
 ---
 
-# 🗺️ Current Journey
+<div align="center">
+
+### 🏴‍☠️ Let's Connect Across The Grand Line
+
+<a href="https://www.facebook.com/Khoiimen">
+  <img src="https://img.shields.io/badge/Follow%20on-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" />
+</a>
+
+<a href="https://www.instagram.com/khoiimen/">
+  <img src="https://img.shields.io/badge/Follow%20on-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" />
+</a>
+
+<a href="https://github.com/Khoii18">
+  <img src="https://img.shields.io/badge/Follow%20on-GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+</a>
+
+</div>
 
 ```js
 const khoii18 = {
