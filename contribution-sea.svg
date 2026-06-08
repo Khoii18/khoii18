@@ -1,0 +1,55 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="120" fill="#0d1117"/>
+
+  <g opacity="0.9">
+    <rect x="80" y="35" width="12" height="12" fill="#0e4429"/>
+    <rect x="95" y="35" width="12" height="12" fill="#006d32"/>
+    <rect x="110" y="35" width="12" height="12" fill="#26a641"/>
+    <rect x="125" y="35" width="12" height="12" fill="#39d353"/>
+
+    <rect x="80" y="50" width="12" height="12" fill="#161b22"/>
+    <rect x="95" y="50" width="12" height="12" fill="#0e4429"/>
+    <rect x="110" y="50" width="12" height="12" fill="#006d32"/>
+    <rect x="125" y="50" width="12" height="12" fill="#26a641"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M0 85 Q40 70 80 85 T160 85 T240 85 T320 85 T400 85 T480 85 T560 85 T640 85 T720 85 T800 85 T900 85" 
+          fill="none" stroke="#58a6ff" stroke-width="3">
+      <animate attributeName="d"
+        dur="4s"
+        repeatCount="indefinite"
+        values="
+        M0 85 Q40 70 80 85 T160 85 T240 85 T320 85 T400 85 T480 85 T560 85 T640 85 T720 85 T800 85 T900 85;
+        M0 85 Q40 95 80 85 T160 85 T240 85 T320 85 T400 85 T480 85 T560 85 T640 85 T720 85 T800 85 T900 85;
+        M0 85 Q40 70 80 85 T160 85 T240 85 T320 85 T400 85 T480 85 T560 85 T640 85 T720 85 T800 85 T900 85"/>
+    </path>
+  </g>
+
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-160 0"
+      to="920 0"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+    <!-- Thousand Sunny inspired ship -->
+    <g transform="translate(0,35)">
+      <path d="M35 45 C60 65 125 65 150 45 L135 75 H55 Z" fill="#8b4513" stroke="#f0c674" stroke-width="3"/>
+      <path d="M70 45 L85 15 L105 45 Z" fill="#f4d03f" stroke="#f0c674" stroke-width="3"/>
+      <circle cx="90" cy="38" r="18" fill="#f6c453" stroke="#8b4513" stroke-width="3"/>
+      <circle cx="84" cy="34" r="3" fill="#111"/>
+      <circle cx="96" cy="34" r="3" fill="#111"/>
+      <path d="M82 43 Q90 50 98 43" fill="none" stroke="#111" stroke-width="3"/>
+      <rect x="112" y="15" width="6" height="35" fill="#f0c674"/>
+      <path d="M118 18 L150 32 L118 45 Z" fill="#e63946" stroke="#f0c674" stroke-width="2"/>
+      <text x="52" y="96" font-family="monospace" font-size="13" fill="#f0c674">Going Merry? No, Coding Sunny!</text>
+    </g>
+  </g>
+
+  <text x="450" y="112" text-anchor="middle" font-family="monospace" font-size="14" fill="#8b949e">
+    Sailing through the Contribution Sea...
+  </text>
+</svg>
