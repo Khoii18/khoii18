@@ -203,8 +203,6 @@ AI-powered platform for:
 
 <img src="https://komarev.com/ghpvc/?username=Khoii18&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
 
-<img src="https://img.shields.io/github/followers/Khoii18?style=for-the-badge&color=blue" />
-
 </p>
 
 # 📫 Contact Me
