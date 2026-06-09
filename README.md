@@ -171,40 +171,95 @@ AI-powered platform for:
 
 ---
 
+---
+
 # 🌊 Contribution Sea
 
 <div align="center">
 
-<img src="./contribution-sea.svg" width="100%" />
+<img src="./contribution-sea.svg" width="100%" alt="Contribution Sea Banner" />
+
+<br/>
+<br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2600&pause=1200&color=58A6FF&center=true&vCenter=true&width=800&lines=Navigating+through+daily+commits...;Riding+the+waves+of+consistency...;One+commit+closer+to+the+Grand+Line..." />
 
 </div>
 
 <br/>
 
-<p align="center">
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoii18&theme=github-compact&hide_border=true&area=true&custom_title=Khoii's%20Contribution%20Sea" />
+<table>
+<tr>
+<td align="center" width="50%">
 
-</p>
+### ⚓ Commit Radar
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Khoii18&theme=github-compact&hide_border=true&area=true&custom_title=Khoii's%20Contribution%20Sea" width="100%" />
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Khoii18&theme=github_dark" width="100%" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/🌊%20Sea%20Status-Active%20Voyage-0A66C2?style=for-the-badge" />
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/⚓%20Captain-Khoiimen-F4C76B?style=for-the-badge" />
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/🚢%20Mission-Keep%20Shipping-166534?style=for-the-badge" />
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
 # 📊 GitHub Activity
 
-<p align="center">
+<div align="center">
 
-<img src="https://streak-stats.demolab.com?user=Khoii18&theme=tokyonight&hide_border=true" />
-
-</p>
+<table>
+<tr>
+<td align="center" width="50%">
+  <img src="https://streak-stats.demolab.com?user=Khoii18&theme=tokyonight&hide_border=true" />
+</td>
+<td align="center" width="50%">
+  <img src="https://github-readme-stats.vercel.app/api?username=Khoii18&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+</td>
+</tr>
+</table>
 
 <br/>
 
-<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khoii18&layout=compact&theme=tokyonight&hide_border=true" />
 
-<img src="https://komarev.com/ghpvc/?username=Khoii18&label=Profile%20Views&color=blueviolet&style=for-the-badge" />
-
-</p>
-
+</div>
 # 📫 Contact Me
 
 <p align="center">
