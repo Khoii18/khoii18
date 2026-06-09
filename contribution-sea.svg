@@ -1,25 +1,27 @@
-<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="170" viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="55%" stop-color="#0a1220"/>
+      <stop offset="55%" stop-color="#08111f"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
 
     <linearGradient id="seaLine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#58a6ff"/>
-      <stop offset="50%" stop-color="#79c0ff"/>
+      <stop offset="50%" stop-color="#8bd3ff"/>
       <stop offset="100%" stop-color="#58a6ff"/>
     </linearGradient>
 
     <linearGradient id="hullGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#9b5a27"/>
-      <stop offset="100%" stop-color="#6b3710"/>
+      <stop offset="0%" stop-color="#b86b2b"/>
+      <stop offset="55%" stop-color="#7a3b12"/>
+      <stop offset="100%" stop-color="#4a2108"/>
     </linearGradient>
 
     <linearGradient id="sailGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ff6b6b"/>
-      <stop offset="100%" stop-color="#d62839"/>
+      <stop offset="0%" stop-color="#fff8dc"/>
+      <stop offset="60%" stop-color="#f2dfaa"/>
+      <stop offset="100%" stop-color="#d1ad6c"/>
     </linearGradient>
 
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -30,201 +32,279 @@
       </feMerge>
     </filter>
 
-    <filter id="tinyGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="shipShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#000000" flood-opacity="0.45"/>
     </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="140" fill="url(#bgGrad)"/>
-
-  <!-- Stars -->
-  <g opacity="0.42">
-    <circle cx="90" cy="24" r="1.2" fill="#c9d1d9"/>
-    <circle cx="145" cy="20" r="1" fill="#8b949e"/>
-    <circle cx="220" cy="28" r="1.1" fill="#c9d1d9"/>
-    <circle cx="330" cy="22" r="1" fill="#8b949e"/>
-    <circle cx="468" cy="20" r="1.2" fill="#c9d1d9"/>
-    <circle cx="590" cy="18" r="1" fill="#8b949e"/>
-    <circle cx="700" cy="25" r="1.2" fill="#c9d1d9"/>
-    <circle cx="790" cy="20" r="1" fill="#8b949e"/>
-  </g>
+  <rect width="900" height="170" fill="url(#bgGrad)"/>
 
   <!-- Frame -->
-  <rect x="28" y="18" width="844" height="100" rx="10" fill="none" stroke="#7d8590" stroke-width="1.1" opacity="0.7"/>
-  <rect x="28.5" y="18.5" width="843" height="99" rx="10" fill="none" stroke="#c9d1d9" stroke-width="0.4" opacity="0.12"/>
+  <rect x="24" y="16" width="852" height="134" rx="10" fill="none" stroke="#7d8590" stroke-width="1.2" opacity="0.75"/>
+  <rect x="25" y="17" width="850" height="132" rx="10" fill="none" stroke="#c9d1d9" stroke-width="0.4" opacity="0.15"/>
 
-  <!-- Contribution blocks -->
-  <g transform="translate(98,42)" filter="url(#tinyGlow)">
-    <rect x="0" y="0" width="12" height="12" rx="2" fill="#0e4429"/>
-    <rect x="15" y="0" width="12" height="12" rx="2" fill="#006d32"/>
-    <rect x="30" y="0" width="12" height="12" rx="2" fill="#26a641"/>
-    <rect x="45" y="0" width="12" height="12" rx="2" fill="#39d353"/>
-
-    <rect x="0" y="15" width="12" height="12" rx="2" fill="#161b22"/>
-    <rect x="15" y="15" width="12" height="12" rx="2" fill="#0e4429"/>
-    <rect x="30" y="15" width="12" height="12" rx="2" fill="#006d32"/>
-    <rect x="45" y="15" width="12" height="12" rx="2" fill="#26a641"/>
+  <!-- Stars -->
+  <g opacity="0.45">
+    <circle cx="92" cy="27" r="1.1" fill="#c9d1d9"/>
+    <circle cx="178" cy="22" r="1" fill="#8b949e"/>
+    <circle cx="276" cy="30" r="1.1" fill="#c9d1d9"/>
+    <circle cx="410" cy="24" r="1" fill="#8b949e"/>
+    <circle cx="552" cy="28" r="1.2" fill="#c9d1d9"/>
+    <circle cx="705" cy="23" r="1" fill="#8b949e"/>
+    <circle cx="806" cy="30" r="1.1" fill="#c9d1d9"/>
   </g>
 
-  <!-- Back wave -->
-  <path d="M0 92 Q45 84 90 92 T180 92 T270 92 T360 92 T450 92 T540 92 T630 92 T720 92 T810 92 T900 92"
-        fill="none" stroke="#1f6feb" stroke-width="1.5" opacity="0.35">
-    <animate attributeName="d"
-      dur="6s"
+  <!-- Contribution blocks -->
+  <g transform="translate(96,48)">
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#0e4429"/>
+    <rect x="18" y="0" width="14" height="14" rx="3" fill="#006d32"/>
+    <rect x="36" y="0" width="14" height="14" rx="3" fill="#26a641"/>
+    <rect x="54" y="0" width="14" height="14" rx="3" fill="#39d353"/>
+
+    <rect x="0" y="18" width="14" height="14" rx="3" fill="#161b22"/>
+    <rect x="18" y="18" width="14" height="14" rx="3" fill="#0e4429"/>
+    <rect x="36" y="18" width="14" height="14" rx="3" fill="#006d32"/>
+    <rect x="54" y="18" width="14" height="14" rx="3" fill="#26a641"/>
+  </g>
+
+  <!-- Wave -->
+  <path
+    d="M0 121 Q50 111 100 121 T200 121 T300 121 T400 121 T500 121 T600 121 T700 121 T800 121 T900 121"
+    fill="none"
+    stroke="url(#seaLine)"
+    stroke-width="3"
+    stroke-linecap="round"
+    filter="url(#softGlow)">
+    <animate
+      attributeName="d"
+      dur="5s"
       repeatCount="indefinite"
       values="
-      M0 92 Q45 84 90 92 T180 92 T270 92 T360 92 T450 92 T540 92 T630 92 T720 92 T810 92 T900 92;
-      M0 92 Q45 100 90 92 T180 92 T270 92 T360 92 T450 92 T540 92 T630 92 T720 92 T810 92 T900 92;
-      M0 92 Q45 84 90 92 T180 92 T270 92 T360 92 T450 92 T540 92 T630 92 T720 92 T810 92 T900 92"/>
+      M0 121 Q50 111 100 121 T200 121 T300 121 T400 121 T500 121 T600 121 T700 121 T800 121 T900 121;
+      M0 121 Q50 131 100 121 T200 121 T300 121 T400 121 T500 121 T600 121 T700 121 T800 121 T900 121;
+      M0 121 Q50 111 100 121 T200 121 T300 121 T400 121 T500 121 T600 121 T700 121 T800 121 T900 121"/>
   </path>
 
-  <!-- Main wave -->
-  <path d="M0 95 Q45 104 90 95 T180 95 T270 95 T360 95 T450 95 T540 95 T630 95 T720 95 T810 95 T900 95"
-        fill="none" stroke="url(#seaLine)" stroke-width="2.8" stroke-linecap="round" filter="url(#softGlow)">
-    <animate attributeName="d"
-      dur="4.8s"
-      repeatCount="indefinite"
-      values="
-      M0 95 Q45 104 90 95 T180 95 T270 95 T360 95 T450 95 T540 95 T630 95 T720 95 T810 95 T900 95;
-      M0 95 Q45 86 90 95 T180 95 T270 95 T360 95 T450 95 T540 95 T630 95 T720 95 T810 95 T900 95;
-      M0 95 Q45 104 90 95 T180 95 T270 95 T360 95 T450 95 T540 95 T630 95 T720 95 T810 95 T900 95"/>
-  </path>
-
-  <!-- Animated ship -->
+  <!-- Moving ship -->
   <g>
     <animateTransform
       attributeName="transform"
       type="translate"
-      from="-210 0"
-      to="940 0"
-      dur="12s"
+      from="-250 0"
+      to="980 0"
+      dur="14s"
       repeatCount="indefinite"/>
 
-    <g transform="translate(0,20)">
+    <g transform="translate(180,18)" filter="url(#shipShadow)">
       <animateTransform
         attributeName="transform"
         type="translate"
-        values="0 0; 0 -2.8; 0 0; 0 2.2; 0 0"
-        dur="2.8s"
-        repeatCount="indefinite"
-        additive="sum"/>
+        values="180,18; 180,14; 180,18; 180,21; 180,18"
+        dur="3s"
+        repeatCount="indefinite"/>
 
-      <!-- Shadow -->
-      <ellipse cx="116" cy="78" rx="60" ry="8" fill="#000" opacity="0.14"/>
+      <!-- shadow -->
+      <ellipse cx="96" cy="128" rx="90" ry="10" fill="#000" opacity="0.24"/>
 
-      <!-- Mast -->
-      <rect x="122" y="24" width="6" height="50" rx="2" fill="#e7b75f"/>
-      <circle cx="125" cy="22" r="3.4" fill="#f0c674"/>
+      <!-- mast -->
+      <rect x="93" y="10" width="8" height="102" rx="3" fill="#d8953f"/>
+      <rect x="97" y="10" width="2" height="102" fill="#ffe6a7" opacity="0.45"/>
+      <circle cx="97" cy="9" r="5" fill="#ffd166" stroke="#7a3b12" stroke-width="1.4"/>
 
-      <!-- Flag -->
-      <path d="M128 18 L163 27 L128 36 Z" fill="#e63946" stroke="#f6d365" stroke-width="1.8">
-        <animate attributeName="d"
-          dur="1.7s"
+      <!-- flag -->
+      <path
+        d="M101 17 C121 10 138 16 158 13 C146 21 147 26 165 32 C142 28 122 36 101 29 Z"
+        fill="#e63946"
+        stroke="#ffc857"
+        stroke-width="1.5">
+        <animate
+          attributeName="d"
+          dur="1.8s"
           repeatCount="indefinite"
           values="
-          M128 18 L163 27 L128 36 Z;
-          M128 18 L167 26 L128 36 Z;
-          M128 18 L163 27 L128 36 Z"/>
+          M101 17 C121 10 138 16 158 13 C146 21 147 26 165 32 C142 28 122 36 101 29 Z;
+          M101 17 C125 8 142 18 164 14 C148 22 151 28 171 35 C144 29 123 38 101 29 Z;
+          M101 17 C121 10 138 16 158 13 C146 21 147 26 165 32 C142 28 122 36 101 29 Z"/>
       </path>
 
-      <!-- Sail -->
-      <path d="M130 31 C151 35 171 44 189 55 C169 66 149 71 130 75 Z"
-            fill="url(#sailGrad)" stroke="#f6d365" stroke-width="2.2"/>
-      <path d="M136 37 C149 41 163 47 175 54 C161 60 149 64 136 68 Z"
-            fill="#ffe9a8" opacity="0.95"/>
+      <!-- yard -->
+      <path
+        d="M26 50 C72 42 126 42 181 50"
+        fill="none"
+        stroke="#f0c674"
+        stroke-width="8"
+        stroke-linecap="round"/>
+      <path
+        d="M26 50 C72 42 126 42 181 50"
+        fill="none"
+        stroke="#5b2b0b"
+        stroke-width="2"
+        stroke-linecap="round"
+        opacity="0.75"/>
 
-      <!-- Hull -->
-      <path d="M52 72 C77 89 144 90 176 72 L158 98 L74 98 Z"
-            fill="url(#hullGrad)" stroke="#f0c674" stroke-width="3" stroke-linejoin="round"/>
+      <!-- sail -->
+      <path
+        d="M38 53
+           C60 60 137 60 171 53
+           C184 86 176 113 152 124
+           C122 133 72 129 49 119
+           C58 92 54 72 38 53 Z"
+        fill="url(#sailGrad)"
+        stroke="#7a5a25"
+        stroke-width="2.6"
+        stroke-linejoin="round"/>
 
-      <!-- Hull highlight -->
-      <path d="M70 79 C95 87 136 87 160 79"
-            fill="none" stroke="#f6d365" stroke-width="2.6" stroke-linecap="round" opacity="0.95"/>
+      <!-- sail folds -->
+      <path d="M62 59 C71 84 69 104 56 118" fill="none" stroke="#b89455" stroke-width="1.4" opacity="0.5"/>
+      <path d="M146 59 C140 83 143 105 152 120" fill="none" stroke="#b89455" stroke-width="1.4" opacity="0.5"/>
 
-      <!-- Deck line -->
-      <path d="M61 72 H168" stroke="#2d1609" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+      <!-- smaller pirate emblem -->
+      <g transform="translate(106,88) scale(0.52)">
+        <!-- bones -->
+        <g fill="#ffffff" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="-42" y1="-30" x2="40" y2="34"/>
+          <circle cx="-45" cy="-33" r="8"/>
+          <circle cx="-35" cy="-41" r="8"/>
+          <circle cx="45" cy="37" r="8"/>
+          <circle cx="35" cy="45" r="8"/>
 
-      <!-- Bow / stern -->
-      <path d="M176 72 C188 70 197 66 203 60 C200 71 190 80 176 84"
-            fill="none" stroke="#f0c674" stroke-width="3" stroke-linecap="round"/>
-      <path d="M52 72 C43 70 36 66 31 60 C35 72 45 80 57 84"
-            fill="none" stroke="#f0c674" stroke-width="3" stroke-linecap="round"/>
+          <line x1="42" y1="-30" x2="-40" y2="34"/>
+          <circle cx="45" cy="-33" r="8"/>
+          <circle cx="35" cy="-41" r="8"/>
+          <circle cx="-45" cy="37" r="8"/>
+          <circle cx="-35" cy="45" r="8"/>
+        </g>
 
-      <!-- Chibi pirate boy (inspired vibe) -->
-      <g transform="translate(104,34)">
+        <!-- skull -->
+        <circle cx="0" cy="0" r="30" fill="#fff" stroke="#111" stroke-width="3"/>
+        <path d="M-18 19 Q0 34 18 19 L16 42 Q0 50 -16 42 Z" fill="#fff" stroke="#111" stroke-width="3"/>
+
+        <!-- eyes + nose -->
+        <ellipse cx="-11" cy="3" rx="9" ry="11" fill="#050505"/>
+        <ellipse cx="11" cy="3" rx="9" ry="11" fill="#050505"/>
+        <ellipse cx="0" cy="17" rx="4" ry="5" fill="#050505"/>
+
+        <!-- teeth -->
+        <path d="M-15 27 H15" stroke="#111" stroke-width="2"/>
+        <path d="M-14 36 H14" stroke="#111" stroke-width="2"/>
+        <path d="M-7 24 V42" stroke="#111" stroke-width="1.6"/>
+        <path d="M0 23 V45" stroke="#111" stroke-width="1.6"/>
+        <path d="M7 24 V42" stroke="#111" stroke-width="1.6"/>
+
+        <!-- hat -->
+        <path d="M-42 -16 Q0 -25 42 -16 L40 -9 Q0 -1 -40 -9 Z"
+              fill="#f9d923" stroke="#111" stroke-width="3"/>
+        <path d="M-26 -17 Q-21 -47 0 -50 Q21 -47 26 -17 Z"
+              fill="#f9d923" stroke="#111" stroke-width="3"/>
+        <path d="M-29 -20 Q0 -26 29 -20 L29 -12 Q0 -5 -29 -12 Z"
+              fill="#e63946" stroke="#111" stroke-width="2.2"/>
+      </g>
+
+      <!-- chibi pirate boy -->
+      <g transform="translate(62,82)">
         <!-- legs -->
-        <line x1="-6" y1="27" x2="-10" y2="39" stroke="#d8b28a" stroke-width="3" stroke-linecap="round"/>
-        <line x1="6" y1="27" x2="10" y2="39" stroke="#d8b28a" stroke-width="3" stroke-linecap="round"/>
+        <line x1="-7" y1="28" x2="-10" y2="40" stroke="#d9b08c" stroke-width="3.2" stroke-linecap="round"/>
+        <line x1="7" y1="28" x2="10" y2="40" stroke="#d9b08c" stroke-width="3.2" stroke-linecap="round"/>
 
         <!-- shorts -->
-        <rect x="-9" y="20" width="18" height="10" rx="3" fill="#2f6fed"/>
+        <rect x="-10" y="20" width="20" height="10" rx="3" fill="#2f6fed"/>
 
         <!-- body -->
-        <rect x="-11" y="4" width="22" height="18" rx="5" fill="#d62828" stroke="#7a1010" stroke-width="1.5"/>
-        <path d="M0 5 L0 22" stroke="#f6c9a5" stroke-width="1.4" opacity="0.75"/>
-        <circle cx="0" cy="13" r="1.3" fill="#f6c9a5"/>
+        <rect x="-12" y="3" width="24" height="19" rx="5" fill="#d62828" stroke="#7a1010" stroke-width="1.5"/>
 
         <!-- arms -->
-        <line x1="-10" y1="10" x2="-19" y2="19" stroke="#d8b28a" stroke-width="3" stroke-linecap="round"/>
-        <line x1="10" y1="10" x2="20" y2="2" stroke="#d8b28a" stroke-width="3" stroke-linecap="round"/>
-
-        <!-- hand -->
-        <circle cx="20" cy="2" r="2.6" fill="#d8b28a"/>
-
-        <!-- neck -->
-        <rect x="-3" y="0" width="6" height="5" rx="2" fill="#d8b28a"/>
+        <line x1="-11" y1="10" x2="-21" y2="18" stroke="#d9b08c" stroke-width="3.2" stroke-linecap="round"/>
+        <line x1="11" y1="10" x2="21" y2="1" stroke="#d9b08c" stroke-width="3.2" stroke-linecap="round"/>
 
         <!-- head -->
-        <circle cx="0" cy="-11" r="13" fill="#d8b28a" stroke="#8a5a3c" stroke-width="1.2"/>
+        <circle cx="0" cy="-12" r="14" fill="#d9b08c" stroke="#8a5a3c" stroke-width="1.3"/>
 
         <!-- hair -->
-        <path d="M-11 -13 Q-8 -24 0 -24 Q8 -24 11 -13 Q6 -16 2 -16 Q-2 -16 -11 -13 Z"
-              fill="#1a1a1a"/>
-        <path d="M-10 -13 Q-6 -9 -3 -12 Q0 -8 3 -12 Q7 -9 10 -13 L10 -4 Q0 -1 -10 -4 Z"
-              fill="#1a1a1a"/>
+        <path d="M-11 -14 Q-8 -25 0 -25 Q8 -25 11 -14 Q6 -17 2 -17 Q-2 -17 -11 -14 Z" fill="#1a1a1a"/>
+        <path d="M-10 -14 Q-6 -10 -3 -13 Q0 -9 3 -13 Q7 -10 10 -14 L10 -4 Q0 -1 -10 -4 Z" fill="#1a1a1a"/>
 
-        <!-- hat brim -->
-        <ellipse cx="0" cy="-18" rx="19" ry="5.5" fill="#f6c65b" stroke="#8b4513" stroke-width="1.6"/>
-        <!-- hat top -->
-        <path d="M-11 -24 Q0 -31 11 -24 Q10 -18 0 -18 Q-10 -18 -11 -24 Z"
-              fill="#f6c65b" stroke="#8b4513" stroke-width="1.6"/>
-        <!-- red band -->
-        <path d="M-9 -21 Q0 -23 9 -21" fill="none" stroke="#d62828" stroke-width="2.2" stroke-linecap="round"/>
+        <!-- hat -->
+        <ellipse cx="0" cy="-18" rx="20" ry="6" fill="#f6c65b" stroke="#8b4513" stroke-width="1.7"/>
+        <path d="M-12 -24 Q0 -31 12 -24 Q11 -18 0 -18 Q-11 -18 -12 -24 Z"
+              fill="#f6c65b" stroke="#8b4513" stroke-width="1.7"/>
+        <path d="M-10 -21 Q0 -23 10 -21" fill="none" stroke="#d62828" stroke-width="2.3" stroke-linecap="round"/>
 
         <!-- face -->
         <circle cx="-4" cy="-12" r="1.4" fill="#111"/>
         <circle cx="4" cy="-12" r="1.4" fill="#111"/>
         <path d="M-4 -7 Q0 -4 4 -7" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round"/>
 
-        <!-- vest opening -->
-        <path d="M-3 7 Q0 11 3 7" fill="none" stroke="#7a1010" stroke-width="1"/>
-
-        <!-- subtle bounce -->
+        <!-- bounce -->
         <animateTransform
           attributeName="transform"
           type="translate"
-          values="104,34; 104,32.8; 104,34; 104,35.2; 104,34"
+          values="62,82; 62,80; 62,82; 62,84; 62,82"
           dur="2.2s"
           repeatCount="indefinite"/>
       </g>
 
-      <!-- Splash -->
-      <path d="M184 87 Q189 83 194 87" fill="none" stroke="#79c0ff" stroke-width="1.5" opacity="0.8"/>
-      <path d="M47 87 Q42 83 37 87" fill="none" stroke="#79c0ff" stroke-width="1.5" opacity="0.8"/>
+      <!-- rear cabin -->
+      <g>
+        <path d="M25 101 H70 L66 118 H30 Z" fill="#8f4c1e" stroke="#f0c674" stroke-width="2.2"/>
+        <path d="M30 107 H65" stroke="#2d1609" stroke-width="2" opacity="0.7"/>
+        <rect x="35" y="104" width="7" height="10" rx="1" fill="#ffd166"/>
+        <rect x="48" y="104" width="7" height="10" rx="1" fill="#ffd166"/>
+      </g>
+
+      <!-- hull -->
+      <path
+        d="M18 114
+           C42 139 151 142 207 114
+           C195 139 174 149 127 152
+           C83 154 43 145 27 131
+           Z"
+        fill="url(#hullGrad)"
+        stroke="#f0c674"
+        stroke-width="3.2"
+        stroke-linejoin="round"/>
+
+      <!-- deck rail -->
+      <path d="M21 111 H204" stroke="#f0c674" stroke-width="7" stroke-linecap="round"/>
+      <path d="M23 111 H202" stroke="#3a1b09" stroke-width="2.4" stroke-linecap="round" opacity="0.75"/>
+
+      <!-- hull details -->
+      <path d="M43 126 C78 138 146 139 183 126" fill="none" stroke="#c77b35" stroke-width="2.1" opacity="0.85"/>
+      <path d="M56 138 C90 146 139 146 171 138" fill="none" stroke="#3a1b09" stroke-width="2" opacity="0.45"/>
+
+      <!-- portholes -->
+      <circle cx="77" cy="130" r="8.5" fill="#0d1117" stroke="#f0c674" stroke-width="3.1"/>
+      <circle cx="112" cy="133" r="8.5" fill="#0d1117" stroke="#f0c674" stroke-width="3.1"/>
+      <circle cx="148" cy="130" r="8.5" fill="#0d1117" stroke="#f0c674" stroke-width="3.1"/>
+
+      <!-- bow -->
+      <path
+        d="M207 114
+           C225 102 231 88 223 81
+           C214 75 204 84 206 95
+           C207 103 217 102 217 93"
+        fill="none"
+        stroke="#f0c674"
+        stroke-width="5"
+        stroke-linecap="round"/>
+
+      <!-- stern -->
+      <path d="M18 114 C7 108 3 96 5 86" fill="none" stroke="#f0c674" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- water splashes -->
+      <path d="M199 146 Q212 138 225 146" fill="none" stroke="#79c0ff" stroke-width="2.3" opacity="0.95"/>
+      <path d="M38 146 Q26 138 12 146" fill="none" stroke="#79c0ff" stroke-width="2.3" opacity="0.95"/>
+      <circle cx="226" cy="137" r="2.8" fill="#58a6ff" opacity="0.85"/>
+      <circle cx="235" cy="147" r="2.2" fill="#58a6ff" opacity="0.65"/>
     </g>
   </g>
 
   <!-- Caption -->
-  <text x="450" y="108" text-anchor="middle" font-family="monospace" font-size="14" fill="#c9d1d9">
+  <text x="610" y="112" text-anchor="middle" font-family="monospace" font-size="15" fill="#c9d1d9">
     Sailing through the Contribution Sea...
   </text>
 
-  <text x="450" y="124" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#8b949e">
+  <text x="610" y="130" text-anchor="middle" font-family="monospace" font-size="11" fill="#8b949e">
     One commit closer to the Grand Line
   </text>
 </svg>
