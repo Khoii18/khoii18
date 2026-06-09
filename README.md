@@ -211,8 +211,8 @@ AI-powered platform for:
 
 <p align="center">
 
-<a href="mailto:khoinagch221106@fpt.edu.vn">
-  <img src="https://img.shields.io/badge/Gmail-khoinagch221106%40fpt.edu.vn-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+<a href="mailto:Roynguyen2004@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Roynguyen2004@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 <a href="https://github.com/Khoii18">
