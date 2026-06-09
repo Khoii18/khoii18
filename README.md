@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☠️ KHOII18
+# ☠️ KHOIIMEN
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2500&pause=800&color=F4C76B&center=true&vCenter=true&width=900&lines=FRONTEND+DEVELOPER;MERN+STACK+EXPLORER;UI%2FUX+FOCUSED" />
 
